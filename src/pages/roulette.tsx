@@ -153,8 +153,8 @@ export function Roulette() {
                 <canvas
                     ref={canvasRef}
                     className={`rounded-full ${options.length === 0 ? "bg-neutral-700" : "bg-gray-200"}`}
-                    height={350}
-                    width={350}
+                    height={320}
+                    width={320}
                 />
 
                 <div className="absolute">

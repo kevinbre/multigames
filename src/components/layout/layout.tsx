@@ -2,7 +2,7 @@ import {Outlet} from "react-router-dom";
 
 export function Layout() {
     return (
-        <div className="bg-neutral-900 min-h-screen flex flex-col items-center justify-between text-gray-300">
+        <div className="bg-neutral-900 min-h-[100dvh] flex flex-col items-center justify-between text-gray-300 h-full">
             <main className="py-6 h-full">
                 <Outlet />
             </main>
